@@ -1,1 +1,4 @@
-# kotlin-practice-collections
+# Kotlin Practice Core
+## Collections
+- map
+- flatMap
