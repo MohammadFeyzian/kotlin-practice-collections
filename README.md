@@ -5,3 +5,4 @@
 - filter
 - filterNot
 - filterNotNull
+- mapNotNull
