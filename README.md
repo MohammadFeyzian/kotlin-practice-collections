@@ -6,3 +6,4 @@
 - filterNot
 - filterNotNull
 - mapNotNull
+- distinct
