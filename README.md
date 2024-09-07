@@ -4,3 +4,4 @@
 - flatMap
 - filter
 - filterNot
+- filterNotNull
