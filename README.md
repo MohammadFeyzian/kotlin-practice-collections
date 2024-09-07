@@ -1,5 +1,6 @@
 # Kotlin Practice Core
 ## Collections
+### Transformation Functions:
 - map
 - flatMap
 - filter
