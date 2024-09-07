@@ -1,0 +1,51 @@
+# Kotlin related
+*.class
+*.kt.metadata
+*.jar
+*.war
+*.ear
+*.apk
+*.iml
+
+# IntelliJ IDEA related
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+target/
+*.log
+
+# Android specific
+.gradle/
+local.properties
+.idea/workspace.xml
+.idea/libraries
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.idea/caches/
+.idea/modules.xml
+.idea/assetWizardSettings.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+
+# User-specific files
+*.env
+.idea/misc.xml
+.idea/dictionaries
+.idea/vcs.xml
+
+# OS specific
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+*.swp
+
+# Linux
+*~
