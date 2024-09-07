@@ -7,3 +7,4 @@
 - filterNotNull
 - mapNotNull
 - distinct
+- sortedBy
