@@ -11,3 +11,4 @@
 - sortedBy
 - sortedWith
 - sortedDescending
+- sortedWithDescending
