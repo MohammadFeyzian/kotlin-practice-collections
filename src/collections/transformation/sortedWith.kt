@@ -23,6 +23,7 @@ fun main() {
     val sortedByAgeThenHeight = people.sortedWith(
         compareBy<Person> { it.age }
             .thenBy { it.height }
+            .thenBy { it.name }
     )
 
     println("Original list:")
@@ -51,6 +52,7 @@ fun otherSortedWithExample() {
     val sortedByPriceThenRating = products.sortedWith(
         compareBy<Product> { it.price }
             .thenByDescending { it.rating }
+            .thenBy { it.name }
     )
 
     println("Original products: $products")
