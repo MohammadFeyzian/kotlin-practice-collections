@@ -1,3 +1,5 @@
+package collections
+
 /**
  * flatMap - Applies a transformation function to each element of the collection,
  * and then flattens the resulting collections into a single list.

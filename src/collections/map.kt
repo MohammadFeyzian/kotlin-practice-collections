@@ -1,3 +1,5 @@
+package collections
+
 /**
  * map - Transforms each element of the collection by applying the given function to it.
  * It creates a new list where every element from the original collection is transformed.
