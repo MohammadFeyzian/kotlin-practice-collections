@@ -2,3 +2,5 @@
 ## Collections
 - map
 - flatMap
+- filter
+- filterNot
