@@ -1,4 +1,4 @@
-package collections
+package collections.transformation
 
 /**
  * map - Transforms each element of the collection by applying the given function to it.

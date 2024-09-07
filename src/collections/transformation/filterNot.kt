@@ -1,4 +1,4 @@
-package collections
+package collections.transformation
 
 /**
  * filterNot - Filters elements that do not match a given condition (predicate).

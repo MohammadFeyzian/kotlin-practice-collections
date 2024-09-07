@@ -1,4 +1,4 @@
-package collections
+package collections.transformation
 
 /**
  * filterNotNull - Filters out all null values from a collection.

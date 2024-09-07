@@ -1,4 +1,4 @@
-package collections
+package collections.transformation
 
 /**
  * flatMap - Applies a transformation function to each element of the collection,
