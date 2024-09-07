@@ -8,3 +8,4 @@
 - mapNotNull
 - distinct
 - sortedBy
+- sortedWith
