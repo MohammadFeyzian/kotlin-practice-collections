@@ -10,3 +10,4 @@
 - distinct
 - sortedBy
 - sortedWith
+- sortedDescending
