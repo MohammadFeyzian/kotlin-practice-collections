@@ -20,3 +20,4 @@
 - fold
 - sumOf
 - maxBy (maxOf)
+- minBy (minOf)
