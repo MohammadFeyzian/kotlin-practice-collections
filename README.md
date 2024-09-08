@@ -19,3 +19,4 @@
 - reduce
 - fold
 - sumOf
+- maxBy (maxOf)
