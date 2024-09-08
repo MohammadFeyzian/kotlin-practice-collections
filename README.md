@@ -18,3 +18,4 @@
 ### Aggregation & Reduction:
 - reduce
 - fold
+- sumOf
