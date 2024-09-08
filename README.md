@@ -1,5 +1,7 @@
 # Kotlin Practice Core
+
 ## Collections
+
 ### Transformation Functions:
 - map
 - flatMap
@@ -12,3 +14,6 @@
 - sortedWith
 - sortedDescending
 - sortedWithDescending
+
+### Aggregation & Reduction:
+- reduce
