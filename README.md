@@ -17,3 +17,4 @@
 
 ### Aggregation & Reduction:
 - reduce
+- fold
