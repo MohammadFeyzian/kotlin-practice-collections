@@ -21,3 +21,4 @@
 - sumOf
 - maxBy (maxOf)
 - minBy (minOf)
+- average
