@@ -30,6 +30,7 @@
 ### Checking Conditions:
 - all
 - any
+- non
 
 
 In progress...
