@@ -22,3 +22,9 @@
 - maxBy (maxOf)
 - minBy (minOf)
 - average
+
+### Partitioning & Grouping:
+- partition
+
+
+In progress...
