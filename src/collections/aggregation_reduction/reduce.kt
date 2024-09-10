@@ -12,7 +12,10 @@ fun main() {
     val numbers = listOf(1, 2, 3, 4, 5)
 
     // Using reduce to sum all the numbers in the list
-    val sum = numbers.reduce { acc, number -> acc + number }
+    val sum = numbers.reduce { acc, number ->
+        println("--->acc = $acc and number = $number")
+        acc + number
+    }
 
     println("Original numbers: $numbers")
     println("Sum of all numbers using reduce: $sum")

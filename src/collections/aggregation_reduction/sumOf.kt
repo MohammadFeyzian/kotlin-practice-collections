@@ -1,12 +1,12 @@
 package collections.aggregation_reduction
 
 /**
- * sumBy - Sums the values returned by a selector function applied to each element in the collection.
+ * sumOf - Sums the values returned by a selector function applied to each element in the collection.
  * This is useful when you want to sum the values of a specific property of the elements.
  *
  * Example:
  * If you have a list of objects and you want to sum up a specific property like age or price,
- * you can use sumBy to achieve this.
+ * you can use sumOf to achieve this.
  **/
 
 fun main() {
@@ -19,19 +19,19 @@ fun main() {
         Person("David", 28)
     )
 
-    // Using sumBy to sum up the age of all people in the list
+    // Using sumOf to sum up the age of all people in the list
     val totalAge = people.sumOf { it.age }
 
     println("Original list of people: $people")
-    println("Total age of all people using sumBy: $totalAge")
+    println("Total age of all people using sumOf: $totalAge")
 
     println("\n------\n")
 
-    otherSumByExample()
+    otherSumOfExample()
 }
 
-// Additional sumBy example
-fun otherSumByExample() {
+// Additional sumOf example
+fun otherSumOfExample() {
     data class Product(val name: String, val price: Int)
 
     val products = listOf(
@@ -40,9 +40,9 @@ fun otherSumByExample() {
         Product("Tablet", 600)
     )
 
-    // Using sumBy to sum up the prices of all products in the list
+    // Using sumOf to sum up the prices of all products in the list
     val totalPrice = products.sumOf { it.price }
 
     println("Original products: $products")
-    println("Total price of all products using sumBy: $totalPrice")
+    println("Total price of all products using sumOf: $totalPrice")
 }
