@@ -29,6 +29,7 @@
 
 ### Checking Conditions:
 - all
+- any
 
 
 In progress...
