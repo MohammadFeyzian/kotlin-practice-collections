@@ -19,11 +19,11 @@ fun main(){
 
     println("\n------\n")
 
-    anotherExample()
+    anotherPartitionExample()
 }
 
 // Another example
-fun anotherExample(){
+fun anotherPartitionExample(){
     // Example: Partitioning a list of strings based on string length
     val words = listOf("Kotlin", "is", "fun", "and", "powerful")
 

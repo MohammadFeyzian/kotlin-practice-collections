@@ -25,6 +25,7 @@
 
 ### Partitioning & Grouping:
 - partition
+- groupBy
 
 
 In progress...
