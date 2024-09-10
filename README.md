@@ -27,5 +27,8 @@
 - partition
 - groupBy
 
+### Checking Conditions:
+- all
+
 
 In progress...
