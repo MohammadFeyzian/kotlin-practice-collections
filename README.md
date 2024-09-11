@@ -31,6 +31,7 @@
 - all
 - any
 - non
+- contains
 
 
 In progress...
