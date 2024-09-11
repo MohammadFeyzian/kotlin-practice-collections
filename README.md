@@ -42,6 +42,7 @@
 
 ### Set Operations:
 - union
+- intersect
 
 
 In progress...
