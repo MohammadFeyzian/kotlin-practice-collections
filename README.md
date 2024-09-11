@@ -45,5 +45,12 @@
 - intersect
 - subtract
 
+### Creation & Conversion:
+- toList
+- toSet
+- toMap
+- associate
+- associateWith
+- associateBy
 
 In progress...
