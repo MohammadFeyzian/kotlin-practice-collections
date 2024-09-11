@@ -27,6 +27,7 @@
 - getOrNull
 - first, firstOrNull
 - last, lastOrNull
+- find, findLast
 
 ### Partitioning & Grouping:
 - partition
