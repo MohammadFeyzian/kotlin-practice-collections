@@ -52,5 +52,10 @@
 - associate
 - associateWith
 - associateBy
+- zip
+- unzip
+- plus
+- minus
+
 
 In progress...
