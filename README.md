@@ -43,6 +43,7 @@
 ### Set Operations:
 - union
 - intersect
+- subtract
 
 
 In progress...
