@@ -57,5 +57,11 @@
 - plus
 - minus
 
+### Slicing & Windowing:
+- take
+- drop
+- chunked
+- windowed
+
 
 In progress...
