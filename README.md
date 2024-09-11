@@ -40,5 +40,8 @@
 - non
 - contains
 
+### Set Operations:
+- union
+
 
 In progress...
