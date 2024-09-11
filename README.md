@@ -26,6 +26,7 @@
 ### Element Access:
 - getOrNull
 - first, firstOrNull
+- last, lastOrNull
 
 ### Partitioning & Grouping:
 - partition

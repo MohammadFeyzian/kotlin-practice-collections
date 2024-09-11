@@ -12,7 +12,7 @@ fun main(){
 
     // Get the first element
     val firstElement = numbers.first()
-    val firstElementOrNull = numbers.firstOrNull() // Return null instead of NoSuchElementException exception
+    val firstElementOrNull = numbers.firstOrNull() // Return null instead of NoSuchElementException
 
     println("Original numbers: $numbers")
     println("First element: $firstElement")
@@ -30,7 +30,7 @@ fun anotherFirstExample(){
     try {
         // Attempt to get the first element, which will throw an exception
         val firstElement = emptyList.first()
-        val firstElementOrNull = emptyList.firstOrNull()
+        val firstElementOrNull = emptyList.firstOrNull() // Return null instead of NoSuchElementException
         println("First element in empty list: $firstElement")
     } catch (e: NoSuchElementException) {
         println("Exception caught: ${e.message} (list is empty, cannot retrieve first element)")
