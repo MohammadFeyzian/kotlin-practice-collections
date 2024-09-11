@@ -23,6 +23,9 @@
 - minBy (minOf)
 - average
 
+### Element Access:
+- getOrNull
+
 ### Partitioning & Grouping:
 - partition
 - groupBy
