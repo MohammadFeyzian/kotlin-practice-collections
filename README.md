@@ -28,6 +28,7 @@
 - first, firstOrNull
 - last, lastOrNull
 - find, findLast
+- elementAtOrNull, elementAtOrElse
 
 ### Partitioning & Grouping:
 - partition
