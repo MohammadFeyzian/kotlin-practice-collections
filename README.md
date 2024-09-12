@@ -93,5 +93,10 @@
 - getOrElse – Get a value or compute a default value if the key is absent.
 - getValue – Get the value of the specified key or throw an exception if absent.
 
+### Iteration
+- forEach – Iterate through key-value pairs.
+- mapValues – Transform all values while keeping the keys.
+- mapKeys – Transform all keys while keeping the values.
+
 
 In progress...
