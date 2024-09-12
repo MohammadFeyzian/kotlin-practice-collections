@@ -104,5 +104,13 @@
 - filterValues – Filter only the values.
 - flatMap – Flatten a map into a sequence of entries.
 
+### Checking & Finding Entries
+- containsKey – Check if the map contains a key.
+- containsValue – Check if the map contains a value.
+- any – Check if any entry satisfies a condition.
+- all – Check if all entries satisfy a condition.
+- none – Check if no entries satisfy a condition.
+- firstNotNullOfOrNull - Finds the first entry that matches a given condition or null.
+
 
 In progress...
