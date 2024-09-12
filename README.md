@@ -67,5 +67,13 @@
 - onEach – Perform an operation on each element and return the collection.
 - iterator – Get an iterator for the collection.
 
+### Others:
+- flatten – Flatten nested collections into a single collection.
+- zipWithNext – Create pairs of consecutive elements.
+- shuffled – Return a shuffled version of the collection.
+- random – Return a random element from the collection.
+
+
+
 
 In progress...
