@@ -98,5 +98,11 @@
 - mapValues – Transform all values while keeping the keys.
 - mapKeys – Transform all keys while keeping the values.
 
+### Filtering and Transforming
+- filter – Filter entries based on key-value pairs.
+- filterKeys – Filter only the keys.
+- filterValues – Filter only the values.
+- flatMap – Flatten a map into a sequence of entries.
+
 
 In progress...
