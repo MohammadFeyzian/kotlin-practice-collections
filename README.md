@@ -87,4 +87,11 @@
 - putAll – Add all key-value pairs from another map to the current map.
 - remove – Remove an entry by its key.
 
+### Retrieving Data
+- get – Get a value by its key.
+- getOrDefault – Get a value by key, or return a default if the key is missing.
+- getOrElse – Get a value or compute a default value if the key is absent.
+- getValue – Get the value of the specified key or throw an exception if absent.
+
+
 In progress...
