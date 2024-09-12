@@ -72,6 +72,11 @@
 - zipWithNext – Create pairs of consecutive elements.
 - shuffled – Return a shuffled version of the collection.
 - random – Return a random element from the collection.
+- orEmpty – Return an empty list if the collection is null. 
+- requireNoNulls – Ensure no null elements, throw an exception otherwise.
+- isEmpty – Check if the collection is empty. 
+- isNotEmpty – Check if the collection is not empty. 
+- count – Count the elements in a collection.
 
 
 
