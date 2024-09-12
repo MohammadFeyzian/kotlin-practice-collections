@@ -62,5 +62,10 @@
 - chunked – Split a collection into chunks.
 - windowed – Create a sliding window of elements.
 
+### Iteration:
+- forEach – Iterate over each element.
+- onEach – Perform an operation on each element and return the collection.
+- iterator – Get an iterator for the collection.
+
 
 In progress...
