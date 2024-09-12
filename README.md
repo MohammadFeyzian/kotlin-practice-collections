@@ -20,8 +20,8 @@
 - **reduce** – Combine elements into a single result.
 - **fold** – Accumulate a value starting with an initial value.
 - **sumOf** – Sum by a specific property.
-- **maxBy** (maxOf) – Find the element with the max value by a property.
-- **minBy** (minOf) – Find the element with the min value by a property.
+- **maxBy** (**maxOf**) – Find the element with the max value by a property.
+- **minBy** (**minOf**) – Find the element with the min value by a property.
 - **average** – Calculate the average of numerical values.
 
 ### Element Access:
