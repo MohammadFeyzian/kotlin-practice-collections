@@ -78,4 +78,13 @@
 - isNotEmpty – Check if the collection is not empty. 
 - count – Count the elements in a collection.
 
+## Collections - Map
+
+### Map Creation & Modification
+- mapOf – Create a read-only Map.
+- mutableMapOf – Create a mutable Map.
+- put – Add or replace a key-value pair in a mutable map.
+- putAll – Add all key-value pairs from another map to the current map.
+- remove – Remove an entry by its key.
+
 In progress...
