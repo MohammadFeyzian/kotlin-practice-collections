@@ -1,4 +1,4 @@
-package collections.map_set
+package collections.map
 
 /**
  * containsKey - Checks if the map contains a specific key.

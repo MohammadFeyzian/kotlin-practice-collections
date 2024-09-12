@@ -1,4 +1,4 @@
-package collections.map_set
+package collections.map
 
 /**
  * keys - Get a Set of all keys in the map.

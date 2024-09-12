@@ -1,4 +1,4 @@
-package collections.map_set
+package collections.map
 
 /**
  * get - Retrieve a value by its key.

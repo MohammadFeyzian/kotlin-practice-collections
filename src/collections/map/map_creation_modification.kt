@@ -1,4 +1,4 @@
-package collections.map_set
+package collections.map
 
 /**
  * mapOf - Creates a read-only Map.

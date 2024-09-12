@@ -1,4 +1,4 @@
-package collections.map_set
+package collections.map
 
 /**
  * forEach - Iterates through key-value pairs.
