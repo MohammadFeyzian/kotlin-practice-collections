@@ -112,5 +112,14 @@
 - none – Check if no entries satisfy a condition.
 - firstNotNullOfOrNull - Finds the first entry that matches a given condition or null.
 
+### Other Map Utilities
+- keys – Get a Set of all keys in the map.
+- values – Get a Collection of all values.
+- entries – Get a Set of map entries (key-value pairs).
+- plus – Merge two maps.
+- minus – Remove a key or multiple keys from a map.
+- MutableMap: plusAssign, minusAssign
+
+
 
 In progress...
