@@ -1,6 +1,6 @@
 # Kotlin Practice Core
 
-## Collections
+## Collections - List
 
 ### Transformation Functions:
 
@@ -77,8 +77,5 @@
 - isEmpty – Check if the collection is empty. 
 - isNotEmpty – Check if the collection is not empty. 
 - count – Count the elements in a collection.
-
-
-
 
 In progress...
