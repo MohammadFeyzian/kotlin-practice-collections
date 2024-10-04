@@ -1,8 +1,8 @@
 # Kotlin Practice Core
 
-## Collections - List
+## Part 1: Collections - List
 
-### Transformation Functions:
+### 01. Transformation Functions:
 
 - **map** – Transform each element.
 - **flatMap** – Flatten and transform collections.
@@ -16,7 +16,7 @@
 - **sortedWith**
 - **sortedWithDescending**
 
-### Aggregation & Reduction:
+### 02. Aggregation & Reduction:
 - **reduce** – Combine elements into a single result.
 - **fold** – Accumulate a value starting with an initial value.
 - **sumOf** – Sum by a specific property.
@@ -24,29 +24,29 @@
 - **minBy** (**minOf**) – Find the element with the min value by a property.
 - **average** – Calculate the average of numerical values.
 
-### Element Access:
+### 03. Element Access:
 - **getOrNull** – Safely get an element by index.
 - **first**, **firstOrNull** – Get the first element or throw an exception.
 - **last**, **lastOrNull** – Get the last element or throw an exception.
 - **find**, **findLast** – Find the first element matching a condition.
 - **elementAtOrNull**, **elementAtOrElse** – Get an element by index safely (return null if out of bounds).
 
-### Partitioning & Grouping:
+### 04. Partitioning & Grouping:
 - **partition** – Split collection into two based on a predicate.
 - **groupBy** – Group elements by a key.
 
-### Checking Conditions:
+### 05. Checking Conditions:
 - **all** – Check if all elements match a condition.
 - **any** – Check if any element matches a condition.
 - **none** – Check if no elements match a condition.
 - **contains** – Check if a specific element is in the collection.
 
-### Set Operations:
+### 06. Set Operations:
 - **union** – Combine two collections without duplicates.
 - **intersect** – Get common elements between two collections.
 - **subtract** – Get elements in one collection but not in another.
 
-### Creation & Conversion:
+### 07. Creation & Conversion:
 - **toList** – Convert to a list.
 - **toSet** – Convert to a set.
 - **toMap** – Convert a collection to a map.
@@ -56,18 +56,18 @@
 - **plus** – Add elements or another collection.
 - **minus** – Remove elements or another collection.
 
-### Slicing & Windowing:
+### 08. Slicing & Windowing:
 - **take** – Take the first N elements.
 - **drop** – Skip the first N elements.
 - **chunked** – Split a collection into chunks.
 - **windowed** – Create a sliding window of elements.
 
-### Iteration:
+### 09. Iteration:
 - **forEach** – Iterate over each element.
 - **onEach** – Perform an operation on each element and return the collection.
 - **iterator** – Get an iterator for the collection.
 
-### Others:
+### 10. Others:
 - **flatten** – Flatten nested collections into a single collection.
 - **zipWithNext** – Create pairs of consecutive elements.
 - **shuffled** – Return a shuffled version of the collection.
@@ -78,33 +78,33 @@
 - **isNotEmpty** – Check if the collection is not empty. 
 - **count** – Count the elements in a collection.
 
-## Collections - Map
+## Part 2: Collections - Map
 
-### Map Creation & Modification
+### 11. Map Creation & Modification
 - **mapOf** – Create a read-only Map.
 - **mutableMapOf** – Create a mutable Map.
 - **put** – Add or replace a key-value pair in a mutable map.
 - **putAll** – Add all key-value pairs from another map to the current map.
 - **remove** – Remove an entry by its key.
 
-### Retrieving Data
+### 12. Retrieving Data
 - **get** – Get a value by its key.
 - **getOrDefault** – Get a value by key, or return a default if the key is missing.
 - **getOrElse** – Get a value or compute a default value if the key is absent.
 - **getValue** – Get the value of the specified key or throw an exception if absent.
 
-### Iteration
+### 13. Iteration
 - **forEach** – Iterate through key-value pairs.
 - **mapValues** – Transform all values while keeping the keys.
 - **mapKeys** – Transform all keys while keeping the values.
 
-### Filtering and Transforming
+### 14. Filtering and Transforming
 - **filter** – Filter entries based on key-value pairs.
 - **filterKeys** – Filter only the keys.
 - **filterValues** – Filter only the values.
 - **flatMap** – Flatten a map into a sequence of entries.
 
-### Checking & Finding Entries
+### 15. Checking & Finding Entries
 - **containsKey** – Check if the map contains a key.
 - **containsValue** – Check if the map contains a value.
 - **any** – Check if any entry satisfies a condition.
@@ -112,7 +112,7 @@
 - **none** – Check if no entries satisfy a condition.
 - **firstNotNullOfOrNull** - Finds the first entry that matches a given condition or null.
 
-### Other Map Utilities
+### 16. Other Map Utilities
 - **keys** – Get a Set of all keys in the map.
 - **values** – Get a Collection of all values.
 - **entries** – Get a Set of map entries (key-value pairs).
