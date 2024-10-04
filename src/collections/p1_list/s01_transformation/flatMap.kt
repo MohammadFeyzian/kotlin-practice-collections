@@ -34,8 +34,6 @@ fun main() {
 fun otherFlatMapExample() {
     val words = listOf("hello", "world")
 
-    val ch = words.flatMap { it.toList() }
-
     // Using flatMap to split each word into characters and flatten the result
     val characters = words.flatMap { it.toList() }
 

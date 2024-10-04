@@ -14,6 +14,7 @@ fun main() {
 
     // Using sortedDescending to sort the numbers in reverse order
     val sortedNumbersDescending = numbers.sortedDescending()
+    numbers.sortedByDescending { it }
 
     println("Original numbers: $numbers")
     println("Numbers sorted in descending order: $sortedNumbersDescending")

@@ -2,6 +2,7 @@ package collections.p1_list.s01_transformation
 
 /**
  * distinct - Removes duplicate elements from the collection.
+ * also: distinctBy{ }
  * It returns a new list containing only distinct elements, preserving the order of the first occurrence.
  *
  * Example:
@@ -29,6 +30,7 @@ fun otherDistinctExample() {
 
     // Using distinct to remove duplicate names
     val uniqueNames = namesWithDuplicates.distinct()
+    namesWithDuplicates.distinctBy{ it.length }
 
     println("Original names: $namesWithDuplicates")
     println("Names with distinct elements: $uniqueNames")
