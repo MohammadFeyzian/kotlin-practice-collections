@@ -68,3 +68,19 @@ private fun merge(list: List<List<Int>>): List<List<Int>> {
             acc
         }
 }
+
+private fun merge(intervals: Array<IntArray>): Array<IntArray> {
+    return intervals
+        .toList()
+        .sortedBy { it[0] }
+        .fold(mutableListOf<MutableList<Int>>()) { acc, next ->
+            if (acc.isNotEmpty() && acc.last()[1] >= next[0]) {
+                acc.last()[1] = maxOf(acc.last()[1], next[1])
+            } else {
+                acc.add(mutableListOf(next[0], next[1]))
+            }
+            acc
+        }
+        .map { it.toIntArray() }
+        .toTypedArray()
+}
