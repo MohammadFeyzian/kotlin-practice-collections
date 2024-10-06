@@ -33,3 +33,38 @@ fun otherFoldExample() {
     println("Original words: $words")
     println("Sentence formed using fold with initial value: $sentenceWithInitial")
 }
+
+// A complex example: Merge the overlaped items in the list
+private fun testCases() {
+
+//    val list = listOf(
+//        listOf(3, 6),
+//        listOf(1, 4),
+//        listOf(8, 9),
+//        listOf(10, 12),
+//        listOf(5, 7)
+//    )
+
+    val list = listOf(
+        listOf(1, 10),
+        listOf(2, 5),
+        listOf(6, 9)
+    )
+
+    println("Original list: $list")
+
+    println("Merged list: ${merge(list)}")
+}
+
+private fun merge(list: List<List<Int>>): List<List<Int>> {
+    return list
+        .sortedBy { it[0] }
+        .fold(mutableListOf<MutableList<Int>>()) { acc, next ->
+            if (acc.isNotEmpty() && acc.last()[1] >= next[0]) {
+                acc.last()[1] = maxOf(acc.last()[1], next[1])
+            } else {
+                acc.add(mutableListOf(next[0], next[1]))
+            }
+            acc
+        }
+}
